@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "draft-order"
+version = "0.1.0"
+description = ""
+authors = ["Hasan Hindi <hthindi1993@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+numpy = "^2.2.4"
+jupyter = "^1.1.1"
+notebook = "^7.3.3"
+requests = "^2.32.3"
+playsound = "1.2.2"
+pygame = "^2.6.1"
+loadenv = "^0.1.1"
+dotenv = "^0.9.9"
+pyinstaller = {version = "^6.12.0", python = "<3.14"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
